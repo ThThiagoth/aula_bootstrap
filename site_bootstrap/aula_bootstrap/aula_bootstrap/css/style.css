@@ -1,0 +1,97 @@
+body {
+    font: 20px times
+}
+.navbar{
+    background-color:#0CA088 ;
+}
+.titulo {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.text {
+    color: white;
+}
+.Oquefaçoaqui{
+    background-color:black
+    ;
+}
+.margin {
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+.animes {
+    background-color: #848484;
+}
+.criador {
+    background-color:darkslategrey;
+}
+.text2 {
+    color: black;
+}
+:root{
+    --cor-principal:darkblue;
+    --cor-secundaria:white;
+}
+
+
+.img {
+    width: 110px;
+    position:relative;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked ~ menu {
+    transform: translatex(350px);
+}
+
+menu {
+background-color: rgba(16,16,16,.5);
+    max-width: 350px;
+width: 350px;
+height: 100px;
+left: -350px;
+position: absolute;
+padding-top: 100px;
+padding-left: 0%;
+
+}
+
+menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+menu ul li{
+    border-bottom:1px solid white;
+}
+
+menu ul li{
+    background-color: darkblue
+}
+
+
+menu ul li a{
+    color:white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+}
+menu ul li:hover {
+    background-color:greenyellow;
+    color: var(--cor-principal);
+}
+label {
+    z-index: 1;
+    width: 120px;
+    
+}
+body {
+    background-color:white;
+}
+.img2{
+    width:80px;
+    padding-right: 10px;
+}
